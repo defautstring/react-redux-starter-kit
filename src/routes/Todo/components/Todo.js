@@ -31,7 +31,7 @@ export default class Todo extends Component {
                   data-index={index}
                   onClick={(e) => this.handleDel(e)}
                 >
-                  ❌
+                  错误
                 </button>
               </li>
             })

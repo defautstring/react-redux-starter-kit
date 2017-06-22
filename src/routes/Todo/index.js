@@ -12,6 +12,6 @@ export default (store) => ({
       injectReducer(store, { key: 'todoList', reducer: todoListReducer })
 
       cb(null, Todo)
-    }, 'todo')
+    }, 'todo') 
   }
 })
